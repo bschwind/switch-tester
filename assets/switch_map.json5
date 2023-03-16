@@ -1,0 +1,16 @@
+{
+	switches: {
+		oil_king: {
+			name: "Oil King",
+			image_url: "https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1020/f_auto/v1/api-images/products/oil-kings/1-gateron-oil-king-switches_qx4mnl",
+		},
+		gateron_pro_silver: {
+			name: "Gateron Pro Silver",
+			image_url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51+zZJKnodS.jpg",
+		},
+	},
+	map: {
+		"Escape": "oil_king",
+		"F1": "gateron_pro_silver",
+	}
+}

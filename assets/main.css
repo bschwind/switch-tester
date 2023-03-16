@@ -1,14 +1,23 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
-div {
-    border-radius: 20px;
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background: lightskyblue;
+    tabindex: 1;
+    outline: none;
+}
+
+.switch-image {
+    object-fit: contain;
+    width: 250px;
 }

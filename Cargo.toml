@@ -4,5 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1"
 dioxus = "0.3"
 dioxus-desktop = "0.3"
+json5 = "0.4"
+serde = { version = "1", features = ["derive"] }
