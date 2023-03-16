@@ -24,6 +24,7 @@ fn App(cx: Scope<SwitchData>) -> Element {
         div {
             class: "main-container",
             tabindex: "1",
+            autofocus: true,
             onkeydown: on_key_down_handler,
 
             if let Some(switch) = current_switch.get() {
