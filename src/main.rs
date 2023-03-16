@@ -29,7 +29,7 @@ fn App(cx: Scope<SwitchData>) -> Element {
 
             if let Some(switch) = current_switch.get() {
                 rsx!{
-                    KeySwitchComponent {
+                    KeySwitchInfo {
                         switch: switch
                     }
                 }
@@ -49,7 +49,7 @@ struct KeySwitchProps<'a> {
     switch: &'a KeySwitch,
 }
 
-fn KeySwitchComponent<'a>(cx: Scope<'a, KeySwitchProps<'a>>) -> Element {
+fn KeySwitchInfo<'a>(cx: Scope<'a, KeySwitchProps<'a>>) -> Element {
     cx.render(rsx! {
         div {
             img {
