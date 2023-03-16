@@ -1,0 +1,8 @@
+[package]
+name = "switch-tester"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dioxus = "0.3"
+dioxus-desktop = "0.3"
