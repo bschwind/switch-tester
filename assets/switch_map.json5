@@ -1,16 +1,90 @@
 {
-	switches: {
-		oil_king: {
-			name: "Oil King",
-			image_url: "https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1020/f_auto/v1/api-images/products/oil-kings/1-gateron-oil-king-switches_qx4mnl",
-		},
-		gateron_pro_silver: {
-			name: "Gateron Pro Silver",
-			image_url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51+zZJKnodS.jpg",
-		},
-	},
-	map: {
-		"Escape": "oil_king",
-		"F1": "gateron_pro_silver",
-	}
+    switches: {
+        oil_king: {
+            name: "Oil King",
+            image_url: "https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1020/f_auto/v1/api-images/products/oil-kings/1-gateron-oil-king-switches_qx4mnl",
+        },
+        gateron_pro_silver: {
+            name: "Gateron Pro Silver",
+            image_url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51+zZJKnodS.jpg",
+        },
+        hako_violet: {
+            name: "Kailh Input Club Hako Violet",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200HA-VI_1200x.jpg",
+        },
+        bluish_white: {
+            name: "TTC Bluish White",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/ttc-157_1200x.jpg",
+        },
+        burnt_orange: {
+            name: "Kailh Box Burnt Orange",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KB-BO_1200x.jpg",
+        },
+        box_v2_brown: {
+            name: "Kailh Box V2 Brown",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0530switch-4_1200x.jpg",
+        },
+        gateron_brown: {
+            name: "Gateron Brown",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200GA-BR_1200x.jpg",
+        },
+        ttc_gold_brown: {
+            name: "TTC Gold Brown V3",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/ttc-159_1200x.jpg",
+        },
+        feker_holy_panda: {
+            name: "Feker Holy Panda",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/451_900x.jpg",
+        },
+        tecsee_blue_sky_tactile: {
+            name: "Tecsee Blue Sky Tactile",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0418-124-2_1200x.jpg",
+        },
+        gateron_blizzard: {
+            name: "Gateron Blizzard",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/b8421501ceee8ed8defa49d79fc692df_d2938f86-6288-4e4e-bc7b-ba70fc8fd97a_1200x.jpg",
+        },
+        t1_sunflower: {
+            name: "Durock POM T1 Sunflower",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/P3141763_1200x.jpg",
+        },
+        jwk_taro: {
+            name: "JWK Taro T1",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/12-A_1200x.jpg",
+        },
+        boba_u4t_rgb: {
+            name: "Boba U4T RGB",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/BobaU4TRGB_Tactile1_1200x.jpg",
+        },
+    },
+    map: {
+        "Escape": "hako_violet",
+        "F1": "hako_violet",
+        "F2": "bluish_white",
+        "F3": "burnt_orange",
+        "F4": "box_v2_brown",
+        "F5": "gateron_brown",
+        "F6": "ttc_gold_brown",
+        "F7": "ttc_gold_brown",
+        "F8": "ttc_gold_brown",
+        "F9": "gateron_brown",
+        "F10": "feker_holy_panda",
+        "F11": "feker_holy_panda",
+        "F12": "feker_holy_panda",
+
+        "Backquote": "tecsee_blue_sky_tactile",
+        "Digit1": "tecsee_blue_sky_tactile",
+        "Digit2": "tecsee_blue_sky_tactile",
+        "Digit3": "gateron_blizzard",
+        "Digit4": "gateron_blizzard",
+        "Digit5": "gateron_blizzard",
+        "Digit6": "t1_sunflower",
+        "Digit7": "t1_sunflower",
+        "Digit8": "t1_sunflower",
+        "Digit9": "jwk_taro",
+        "Digit0": "jwk_taro",
+        "Minus": "jwk_taro",
+        "Equal": "boba_u4t_rgb",
+        "Backspace": "boba_u4t_rgb",
+    }
 }
