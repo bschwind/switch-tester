@@ -23,7 +23,7 @@ fn App(cx: Scope<SwitchData>) -> Element {
         style { include_str!("../assets/main.css") }
         div {
             class: "main-container",
-            tabindex: "1",
+            tabindex: "1", // Necessary to receive key down events
             autofocus: true,
             onkeydown: on_key_down_handler,
 
@@ -68,6 +68,14 @@ fn main() -> anyhow::Result<()> {
     let switch_data: SwitchData = json5::from_str(&switch_json)?;
 
     dioxus_desktop::launch_with_props(App, switch_data, Config::default());
+
+    Ok(())
+}
+
+#[test]
+fn test_json_parse() -> anyhow::Result<()> {
+    let switch_json = include_str!("../assets/switch_map.json5");
+    let _switch_data: SwitchData = json5::from_str(switch_json)?;
 
     Ok(())
 }
