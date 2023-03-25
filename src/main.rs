@@ -12,6 +12,8 @@ fn App(cx: Scope<SwitchData>) -> Element {
     let on_key_down_handler = move |e: KeyboardEvent| {
         let code = e.code();
 
+        println!("{code:?}");
+
         if let Some(switch_name) = cx.props.map.get(&code) {
             if let Some(key_switch) = cx.props.switches.get(switch_name) {
                 current_switch.set(Some(key_switch.clone()));
@@ -75,7 +77,13 @@ fn main() -> anyhow::Result<()> {
 #[test]
 fn test_json_parse() -> anyhow::Result<()> {
     let switch_json = include_str!("../assets/switch_map.json5");
-    let _switch_data: SwitchData = json5::from_str(switch_json)?;
+    let switch_data: SwitchData = json5::from_str(switch_json)?;
+
+    for switch_name in switch_data.map.values() {
+        if !switch_data.switches.contains_key(switch_name) {
+            panic!("Switch name {switch_name:?} was not found in the list of switches.");
+        }
+    }
 
     Ok(())
 }

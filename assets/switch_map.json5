@@ -197,8 +197,8 @@
         "Enter": "oil_king",
 
         "ShiftLeft": "pearlio",
-        "KeyZ": "Pearlio",
-        "KeyX": "Pearlio",
+        "KeyZ": "pearlio",
+        "KeyX": "pearlio",
         "KeyC": "north_pole_v1",
         "KeyV": "north_pole_v1",
         "KeyB": "box_v2_white",
