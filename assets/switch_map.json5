@@ -53,8 +53,44 @@
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/12-A_1200x.jpg",
         },
         boba_u4t_rgb: {
-            name: "Boba U4T RGB",
+            name: "Gazzew Boba U4T RGB",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/BobaU4TRGB_Tactile1_1200x.jpg",
+        },
+        kk_switch: {
+            name: "Kailh KK Switch",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0530switch-11_1100x.jpg",
+        },
+        box_v1_red: {
+            name: "Kailh Box V1 Red",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KB-RE_1200x.jpg",
+        },
+        tealio_v2: {
+            name: "Tealio V2",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A02TE_1200x.jpg",
+        },
+        jwk_yellow: {
+            name: "JWK Yellow",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/2-A_1200x.jpg",
+        },
+        jwk_ginger_milk: {
+            name: "JWK Ginger Milk",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/9-A_1200x.jpg",
+        },
+        box_v1_dark_yellow: {
+            name: "Kailh Box V1 Dark Yellow",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KB-DY_1200x.jpg",
+        },
+        gateron_pro_yellow_v1: {
+            name: "Gateron Pro Yellow V1",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/gateron-lubed-3pin-yellow_1200x.jpg",
+        },
+        kailh_pro_burgundy: {
+            name: "Kailh Pro Burgundy",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KP-BU_1200x.jpg",
+        },
+        mekanisk_ultramarine: {
+            name: "Mekanisk Ultramarine V2",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/4-A2_1200x.jpg",
         },
     },
     map: {
@@ -86,5 +122,25 @@
         "Minus": "jwk_taro",
         "Equal": "boba_u4t_rgb",
         "Backspace": "boba_u4t_rgb",
+
+        "Tab": "kk_switch",
+        "KeyQ": "box_v1_red",
+        "KeyW": "box_v1_red",
+        "KeyE": "box_v1_red",
+        "KeyR": "tealio_v2",
+        "KeyT": "tealio_v2",
+        "KeyY": "tealio_v2",
+        "KeyU": "jwk_yellow",
+        "KeyI": "jwk_yellow",
+        "KeyO": "jwk_yellow",
+        "KeyP": "jwk_ginger_milk",
+        "BracketLeft": "jwk_ginger_milk",
+        "BracketRight": "jwk_ginger_milk",
+        "Backslash": "boba_u4t_rgb",
+        "ControlRight": "box_v1_dark_yellow",
+        "KeyA": "box_v1_dark_yellow",
+        "KeyS": "gateron_pro_yellow_v1",
+        "KeyD": "kailh_pro_burgundy",
+        "KeyF": "mekanisk_ultramarine",
     }
 }
