@@ -92,6 +92,50 @@
             name: "Mekanisk Ultramarine V2",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/4-A2_1200x.jpg",
         },
+        green_snake: {
+            name: "Durock Green Snake Switch",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/swichs0409-036_1200x.jpg",
+        },
+        novelkeys_cream: {
+            name: "NovelKeys Cream",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200CS_1200x.jpg",
+        },
+        splash_brothers: {
+            name: "Durock Splash Brothers",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0901-502_1200x.jpg",
+        },
+        pearlio: {
+            name: "Zeal Pearlio",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/Pearlio_1200x.jpg",
+        },
+        north_pole_v1: {
+            name: "Gateron North Pole V1",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/IMG_20220801_165938_1200x.jpg",
+        },
+        box_v2_white: {
+            name: "Kailh Box V2 White",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0530switch-6_1100x.jpg",
+        },
+        gateron_blue: {
+            name: "Gateron Blue",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200GA-BL_1200x.jpg",
+        },
+        kailh_pro_light_green: {
+            name: "Kailh Pro Light Green",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KP-LG_1200x.jpg",
+        },
+        novelkeys_kailh_pro_heavy_sage: {
+            name: "NovelKeys x Kailh Pro Heavys",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/sage-1_1000x.jpg",
+        },
+        fairy_silent_linear: {
+            name: "Yushakobo Fairy Silent Linear",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/IMG_20230125_183904_1200x.png",
+        },
+        tecsee_ice_grape: {
+            name: "Tecsee Ice Grape",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/Tecsee-347_1200x.jpg",
+        },
     },
     map: {
         "Escape": "hako_violet",
@@ -105,7 +149,7 @@
         "F8": "ttc_gold_brown",
         "F9": "gateron_brown",
         "F10": "feker_holy_panda",
-        "F11": "feker_holy_panda",
+        "F11": "feker_holy_panda", // TODO - change this to something else in firmware
         "F12": "feker_holy_panda",
 
         "Backquote": "tecsee_blue_sky_tactile",
@@ -137,10 +181,42 @@
         "BracketLeft": "jwk_ginger_milk",
         "BracketRight": "jwk_ginger_milk",
         "Backslash": "boba_u4t_rgb",
-        "ControlRight": "box_v1_dark_yellow",
+
+        "ControlRight": "box_v1_dark_yellow", // TODO - this should be caps lock or something else
         "KeyA": "box_v1_dark_yellow",
         "KeyS": "gateron_pro_yellow_v1",
         "KeyD": "kailh_pro_burgundy",
         "KeyF": "mekanisk_ultramarine",
+        "KeyG": "green_snake",
+        "KeyH": "novelkeys_cream",
+        "KeyJ": "tealio_v2",
+        "KeyK": "splash_brothers",
+        "KeyL": "splash_brothers",
+        "Semicolon": "oil_king",
+        "Quote": "oil_king",
+        "Enter": "oil_king",
+
+        "ShiftLeft": "pearlio",
+        "KeyZ": "Pearlio",
+        "KeyX": "Pearlio",
+        "KeyC": "north_pole_v1",
+        "KeyV": "north_pole_v1",
+        "KeyB": "box_v2_white",
+        "KeyN": "box_v2_white",
+        "KeyM": "box_v2_white",
+        "Comma": "gateron_blue",
+        "Period": "kailh_pro_light_green",
+        "Slash": "novelkeys_kailh_pro_heavy_sage",
+        "ArrowUp": "fairy_silent_linear",
+
+        "Fn": "fairy_silent_linear", // TODO - fix this
+        "ControlLeft": "fairy_silent_linear",
+        "AltLeft": "fairy_silent_linear",
+        "MetaLeft": "tecsee_ice_grape",
+        "Space": "oil_king",
+        "MetaRight": "fairy_silent_linear",
+        "ArrowLeft": "fairy_silent_linear",
+        "ArrowDown": "fairy_silent_linear",
+        "ArrowRight": "fairy_silent_linear",
     }
 }
