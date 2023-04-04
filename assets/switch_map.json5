@@ -20,6 +20,10 @@
             name: "Kailh Box Burnt Orange",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KB-BO_1200x.jpg",
         },
+        box_v1_brown: {
+            name: "Kailh Box V1 Brown",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KB-BR_1200x.jpg",
+        },
         box_v2_brown: {
             name: "Kailh Box V2 Brown",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0530switch-4_1200x.jpg",
@@ -136,6 +140,14 @@
             name: "Tecsee Ice Grape",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/Tecsee-347_1200x.jpg",
         },
+        akko_pom_silver: {
+            name: "Akko POM Silver",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/POM-Silver_800x.jpg",
+        },
+        akko_matcha_green: {
+            name: "Akko Matcha Green",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/Matcha-Green-x_800x.jpg",
+        },
     },
     map: {
         "Escape": "hako_violet",
@@ -207,7 +219,7 @@
         "Comma": "gateron_blue",
         "Period": "kailh_pro_light_green",
         "Slash": "novelkeys_kailh_pro_heavy_sage",
-        "ArrowUp": "fairy_silent_linear",
+        "ArrowUp": "akko_pom_silver",
 
         "Fn": "fairy_silent_linear", // TODO - fix this
         "ControlLeft": "fairy_silent_linear",
@@ -215,8 +227,8 @@
         "MetaLeft": "tecsee_ice_grape",
         "Space": "oil_king",
         "MetaRight": "fairy_silent_linear",
-        "ArrowLeft": "fairy_silent_linear",
-        "ArrowDown": "fairy_silent_linear",
-        "ArrowRight": "fairy_silent_linear",
+        "ArrowLeft": "mekanisk_ultramarine",
+        "ArrowDown": "box_v1_brown",
+        "ArrowRight": "akko_matcha_green",
     }
 }
