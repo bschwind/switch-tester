@@ -148,6 +148,10 @@
             name: "Akko Matcha Green",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/Matcha-Green-x_800x.jpg",
         },
+        bouquet: {
+            name: "Bouquet",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/swichs0409-037_1200x.jpg",
+        },
     },
     map: {
         "Escape": "hako_violet",
@@ -226,7 +230,7 @@
         "AltLeft": "fairy_silent_linear",
         "MetaLeft": "tecsee_ice_grape",
         "Space": "oil_king",
-        "MetaRight": "fairy_silent_linear",
+        "MetaRight": "bouqet",
         "ArrowLeft": "mekanisk_ultramarine",
         "ArrowDown": "box_v1_brown",
         "ArrowRight": "akko_matcha_green",
