@@ -15,6 +15,11 @@ body {
     background: lightskyblue;
     tabindex: 1;
     outline: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .switch-image {
