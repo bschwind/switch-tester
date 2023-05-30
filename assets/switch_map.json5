@@ -8,6 +8,10 @@
             name: "Gateron Pro Silver",
             image_url: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51+zZJKnodS.jpg",
         },
+        gateron_ink_red: {
+            name: "Gateron Ink Red v2",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/ink-red_1200x.jpg",
+        },
         hako_violet: {
             name: "Kailh Input Club Hako Violet",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200HA-VI_1200x.jpg",
@@ -27,6 +31,10 @@
         box_v2_brown: {
             name: "Kailh Box V2 Brown",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0530switch-4_1200x.jpg",
+        },
+        box_v1_black: {
+            name: "Kailh Box V1 Black",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KB-BK_1200x.jpg",
         },
         gateron_brown: {
             name: "Gateron Brown",
@@ -91,6 +99,14 @@
         kailh_pro_burgundy: {
             name: "Kailh Pro Burgundy",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KP-BU_1200x.jpg",
+        },
+        kailh_midnight_silent_v2: {
+            name: "Kailh Midnight Silent V2",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/14-A_1200x.jpg",
+        },
+        kailh_starry_sky: {
+            name: "Kailh x Newmen, Starry Sky",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/KailhxNewmen_StarrySkySwitch_1200x.jpg",
         },
         mekanisk_ultramarine: {
             name: "Mekanisk Ultramarine V2",
@@ -162,7 +178,7 @@
         "F5": "gateron_brown",
         "F6": "ttc_gold_brown",
         "F7": "ttc_gold_brown",
-        "F8": "ttc_gold_brown",
+        "F8": "kailh_midnight_silent_v2",
         "F9": "gateron_brown",
         "F10": "feker_holy_panda",
         "F11": "feker_holy_panda", // TODO - change this to something else in firmware
@@ -186,7 +202,7 @@
         "Tab": "kk_switch",
         "KeyQ": "box_v1_red",
         "KeyW": "box_v1_red",
-        "KeyE": "box_v1_red",
+        "KeyE": "gateron_ink_red",
         "KeyR": "tealio_v2",
         "KeyT": "tealio_v2",
         "KeyY": "tealio_v2",
@@ -204,11 +220,11 @@
         "KeyD": "kailh_pro_burgundy",
         "KeyF": "mekanisk_ultramarine",
         "KeyG": "green_snake",
-        "KeyH": "novelkeys_cream",
-        "KeyJ": "tealio_v2",
+        "KeyH": "kailh_starry_sky",
+        "KeyJ": "novelkeys_cream",
         "KeyK": "splash_brothers",
         "KeyL": "splash_brothers",
-        "Semicolon": "oil_king",
+        "Semicolon": "box_v1_black",
         "Quote": "oil_king",
         "Enter": "oil_king",
 
