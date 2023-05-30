@@ -108,6 +108,10 @@
             name: "Kailh x Newmen, Starry Sky",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/KailhxNewmen_StarrySkySwitch_1200x.jpg",
         },
+        kailh_speed_bronze: {
+            name: "Kailh Super Speed Bronze",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/0530switch-7_1200x.jpg",
+        },
         mekanisk_ultramarine: {
             name: "Mekanisk Ultramarine V2",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/4-A2_1200x.jpg",
@@ -168,6 +172,10 @@
             name: "Bouquet",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/swichs0409-037_1200x.jpg",
         },
+        ws_studio_silent_tactile: {
+            name: "Wuque Studio Silent Tactile",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/7_2048x2048_3d97326f-0db2-436e-ade8-bea98d3e6f06_1200x.webp",
+        },
     },
     map: {
         "Escape": "hako_violet",
@@ -177,7 +185,7 @@
         "F4": "box_v2_brown",
         "F5": "gateron_brown",
         "F6": "ttc_gold_brown",
-        "F7": "ttc_gold_brown",
+        "F7": "ws_studio_silent_tactile",
         "F8": "kailh_midnight_silent_v2",
         "F9": "gateron_brown",
         "F10": "feker_holy_panda",
@@ -205,7 +213,7 @@
         "KeyE": "gateron_ink_red",
         "KeyR": "tealio_v2",
         "KeyT": "tealio_v2",
-        "KeyY": "tealio_v2",
+        "KeyY": "gateron_pro_silver",
         "KeyU": "jwk_yellow",
         "KeyI": "jwk_yellow",
         "KeyO": "jwk_yellow",
@@ -216,9 +224,9 @@
 
         "ControlRight": "box_v1_dark_yellow", // TODO - this should be caps lock or something else
         "KeyA": "box_v1_dark_yellow",
-        "KeyS": "gateron_pro_yellow_v1",
+        "KeyS": "box_v1_dark_yellow",
         "KeyD": "kailh_pro_burgundy",
-        "KeyF": "mekanisk_ultramarine",
+        "KeyF": "gateron_pro_yellow_v1",
         "KeyG": "green_snake",
         "KeyH": "kailh_starry_sky",
         "KeyJ": "novelkeys_cream",
@@ -233,7 +241,7 @@
         "KeyX": "pearlio",
         "KeyC": "north_pole_v1",
         "KeyV": "north_pole_v1",
-        "KeyB": "box_v2_white",
+        "KeyB": "kailh_speed_bronze",
         "KeyN": "box_v2_white",
         "KeyM": "box_v2_white",
         "Comma": "gateron_blue",
