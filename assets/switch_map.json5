@@ -96,6 +96,10 @@
             name: "Gateron Pro Yellow V1",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/gateron-lubed-3pin-yellow_1200x.jpg",
         },
+        baby_kangaroo: {
+            name: "Gateron Baby Kangaroo",
+            image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/20230330-870_1200x.jpg",
+        },
         kailh_pro_burgundy: {
             name: "Kailh Pro Burgundy",
             image_url: "https://cdn.shopify.com/s/files/1/0532/0880/9633/products/A0200KP-BU_1200x.jpg",
@@ -223,8 +227,8 @@
         "Backslash": "boba_u4t_rgb",
 
         "ControlRight": "box_v1_dark_yellow", // TODO - this should be caps lock or something else
-        "KeyA": "box_v1_dark_yellow",
-        "KeyS": "box_v1_dark_yellow",
+        "KeyA": "baby_kangaroo",
+        "KeyS": "baby_kangaroo",
         "KeyD": "kailh_pro_burgundy",
         "KeyF": "gateron_pro_yellow_v1",
         "KeyG": "green_snake",
